@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Achteur" />
+        <module name="config-service" />
+        <module name="gateway" />
+        <module name="Produit" />
+        <module name="discovry-sevrvice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Config-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Achteur" options="-parameters" />
+      <module name="Config-service" options="-parameters" />
+      <module name="Produit" options="-parameters" />
+      <module name="config-service" options="-parameters" />
+      <module name="discovry-sevrvice" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+    </option>
+  </component>
+</project>
